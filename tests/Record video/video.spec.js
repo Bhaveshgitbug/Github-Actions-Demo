@@ -3,7 +3,7 @@
 const { test, chromium } = require('@playwright/test')
 
 test('record videos', async () => {
-    const browser = await chromium.launch({headless : false, slowMo : 100})
+    const browser = await chromium.launch({headless : true, slowMo : 100})
     const context = await browser.newContext({
         recordVideo : {
             dir : "./recordings"
