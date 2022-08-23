@@ -42,7 +42,7 @@ const config = {
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless: false,
+    headless: true,
     channel : "chrome",
     screenshot : 'only-on-failure',
     video : 'retain-on-failure'
