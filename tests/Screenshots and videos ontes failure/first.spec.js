@@ -8,7 +8,7 @@ test('Open letcode and verify title', async ({ page }) => {
     expect(title).toBe('LetCode with Koushik')
 });
 
-test.only('Open letcode and login', async({page}) => {
+test('Open letcode and login', async({page}) => {
     await page.goto('https://www.letcode.in')
     const title = await page.title();
     expect(title).toBe('LetCode with Koushik')
