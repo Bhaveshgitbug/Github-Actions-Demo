@@ -18,5 +18,5 @@ test.only('Open letcode and login', async({page}) => {
     await page.fill('input[name="email"]', 'raycathode54@gmail.com');
     await page.fill('input[name="password"]', 'Raycathode@54')
     await page.click("p>button.button");
-    expect(page.url()).toBe('https://letcode.in')
+    expect(page.url()).toBe('https://letcode.in/signin')
 })
