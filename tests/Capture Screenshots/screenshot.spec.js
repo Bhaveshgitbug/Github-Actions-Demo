@@ -2,7 +2,7 @@
 
 const {test} = require('@playwright/test')
 
-test('Hamdle mouse events', async({page}) => {
+test('Handle mouse events', async({page}) => {
 
     /* navigating to site */
     await page.goto('https://applitools.com/')
