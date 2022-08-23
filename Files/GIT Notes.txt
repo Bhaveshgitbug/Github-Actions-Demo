@@ -1,0 +1,42 @@
+git repository                           --> A Git repository tracks and saves the history of all changes made to the files in a Git project. It saves this data in a directory called . git , also known as the repository folder.
+git config --global user.name Bhavesh    --> Helps you to set your name
+git config --global user.email           --> Helps you to set your email
+git init                                 --> Creates a local repository or blank repository.
+git --verson                             --> Gives you the GIT Version
+mkdir project-name                       --> Creates a new folder
+cd file_name                             --> Lets you get into the file
+ls                                       --> List files
+ls -a                                    --> Shows you every hidden folder
+git status                               --> It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+
+**********************************ADD*********************************************
+
+git add .
+git add*.java                            --> Allow us to add all the same pattern files at once.
+git add --ignore-removal                 --> Add all new and updated files only.
+git add -u                               --> Add all modified and deleted files.                                 --> The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
+
+**********************************COMMIT*********************************************
+
+git commit -m "messgae"                  --> The easiest way to create a Git commit with a message is to execute “git commit” with the “-m” option followed by your commit message.
+git commit -amend                        --> The amend option lets us to edit the last commit. If accidentally, we have committed a wrong commit message, then this feature is a savage option for us. 
+
+**********************************PUSH***********************************************
+vi names.txt                             --> Allows you to insert text in a file very easily.
+cat file_name                            --> cat command allows us to create single or multiple files, view content of a file, concatenate files and redirect output in terminal or files.
+git restore --version file_name          --> Takes the file from staged to unstaged state.
+git log                                  --> Shows entire history of the project, all the commit that were made would show there.
+rm rf file_name                          --> To delete a file.
+git stash                                --> If you don't want to loose the changes and also don't want to commit them then use stash.
+git remote add origin https://github.com/Bhavesh-1213/GIT-Tutorial.git   --> Command to attach your URL with the local project
+git remote -v                            --> How many url has been atached to the folder.
+git reset <filename>                     --> To undo an add operation
+
+git checkout -b branchname               --> helps to switch from one branch to other
+git branch <branch name>                 --> To create a branch
+git branch                               --> Shows the created branch name.
+git checkout <branch name>               --> helps to switch from one branch to other
+
+touch .gitignore                         --> 
+
+fork --> clone --> changes --> push --> pull request													
